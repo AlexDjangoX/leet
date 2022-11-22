@@ -1,4 +1,6 @@
-// 0(1) space complexity
+// time complexity O(N) linear time
+
+// space complexity O(1) left and right pointers take up constant space
 
 function isPalindrome(s) {
   s = s.toLowerCase().replace(/[\W_]/g, '');
